@@ -3,6 +3,31 @@
   align-items: center;
   justify-content: center;
 }
+.font-inter300 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.font-inter400 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.font-inter600 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.font-inter700 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .header-container {
   max-width: 1512px;
   width: 100%;
@@ -16,11 +41,10 @@
   background-color: lightgray;
 }
 .burger-bar {
-  width: 32px;
-  height: 40px;
+  width: 70px;
+  height: 50px;
   position: relative;
   margin-top: 35px;
-
   display: none;
 }
 .line {
@@ -48,7 +72,6 @@
 .logo1 {
   max-width: 182px;
   width: 100%;
-  height: 51px;
   margin-left: 111px;
   margin-top: 24.5px;
 }
@@ -60,10 +83,6 @@
 .nav-li {
   color: rgba(105, 105, 105, 1);
   font-size: 18px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
   max-width: 51px;
   width: 100%;
 }
@@ -79,10 +98,6 @@
   width: 188px;
   height: 48px;
   color: rgba(255, 255, 255, 1);
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
 }
 .book-now:hover {
   background-color: orangered;
@@ -94,21 +109,15 @@
   max-width: 1512px;
   width: 100%;
   height: 722px;
-
   margin: 0 auto;
   position: relative;
   text-align: center;
   color: rgba(255, 255, 255, 1);
 }
-
 .travel-buddy {
   font-size: 96px;
   max-width: 687;
   width: 100%;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
   letter-spacing: 7%;
   margin-top: 12%;
   position: absolute;
@@ -119,10 +128,6 @@
   width: 100%;
   letter-spacing: 3%;
   color: rgba(255, 255, 255, 1);
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
   position: absolute;
   margin-top: 20%;
   margin-left: 30%;
@@ -132,10 +137,6 @@
   width: 250px;
   height: 66px;
   color: rgba(255, 255, 255, 1);
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
   position: absolute;
   margin-top: 50%;
 }
@@ -152,7 +153,10 @@
   background-color: rgba(255, 255, 255, 1);
 }
 .search-dv:hover {
-  background-color: lightgray;
+  width: 2000px;
+  height: 1550px;
+  background-color: lightgrey;
+  transition: 2s, 4s;
 }
 .title-dv {
   width: 308px;
@@ -160,10 +164,6 @@
   justify-content: space-between;
   font-size: 18px;
   color: rgba(81, 114, 142, 1);
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
   margin-top: 31px;
 }
 .hotel-dv,
@@ -173,27 +173,19 @@
   width: 100%;
   height: 36px;
 }
-
 .city {
   color: rgba(45, 147, 234, 1);
   font-size: 16px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .place-dv {
   width: 197px;
-  height: 55px;
-  background-color: brown;
 }
 
 .choose-dv {
   max-width: 1090px;
   width: 100%;
   height: auto;
-
   display: flex;
   margin-top: 30px;
   justify-content: space-between;
@@ -220,10 +212,7 @@
 }
 .button3 {
   color: rgba(255, 255, 255, 1);
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
+
   background-color: rgba(255, 84, 3, 1);
   width: 198px;
   height: 52px;
@@ -231,7 +220,6 @@
 .button3:hover {
   background-color: orangered;
 }
-
 .section3 {
   background-color: rgba(243, 243, 243, 1);
   max-width: 1512px;
@@ -254,7 +242,6 @@ a:hover {
 .top-places-dv {
   max-width: 348px;
   width: 100%;
-  height: 86px;
   flex-direction: column;
   margin-bottom: 50px;
 }
@@ -262,27 +249,17 @@ a:hover {
   font-size: 36px;
   letter-spacing: 5%;
   color: rgba(4, 21, 98, 1);
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
   text-align: center;
 }
-
 .best-place {
   font-size: 18px;
   letter-spacing: 5%;
   color: rgba(98, 98, 98, 1);
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
   margin-top: 20px;
 }
 .images-dv {
   max-width: 1312px;
   width: 100%;
-  height: auto;
 }
 .discover-more {
   margin-top: 17%;
@@ -292,16 +269,11 @@ a:hover {
   height: 66px;
   color: rgba(255, 255, 255, 1);
   font-size: 18px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
 }
 .button4 {
   max-width: 250px;
   width: 100%;
 }
-
 .section4 {
   background-image: url(../images/background-image2.png);
   max-width: 1512px;
@@ -315,7 +287,6 @@ a:hover {
 .upcoming-event {
   max-width: 641px;
   width: 100%;
-  height: 616px;
   background-color: rgba(255, 255, 255, 1);
   position: absolute;
   margin-top: 8%;
@@ -334,25 +305,17 @@ a:hover {
   font-size: 18px;
   color: rgba(255, 84, 3, 1);
   letter-spacing: 2%;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
   font-style: normal;
 }
 .bali-indonesia {
   color: rgba(4, 21, 98, 1);
   font-size: 32px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
   margin-top: 15px;
 }
 .details-text {
   max-width: 541px;
   width: 100%;
-  height: 396px;
-
+  height: auto;
   margin-left: 5%;
   margin-top: 31.5px;
 }
@@ -362,17 +325,12 @@ a:hover {
   height: 93px;
   font-size: 18px;
   color: rgba(98, 98, 98, 1);
-
   letter-spacing: 2%;
 }
 .start-info {
   font-size: 18px;
   letter-spacing: 2%;
   color: rgba(96, 96, 96, 1);
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
   margin-top: 31.5px;
 }
 .cost,
@@ -382,7 +340,6 @@ a:hover {
 .rating-dv {
   display: flex;
   margin-top: 22px;
-
   max-width: 221px;
   height: 35px;
   align-items: center;
@@ -395,17 +352,14 @@ a:hover {
   column-gap: 5px;
 }
 .stars {
-  width: 25px;
+  max-width: 25px;
+  width: 100%;
   height: 35px;
 }
 .plan-details {
   background-color: rgba(255, 84, 3, 1);
   font-size: 18px;
   color: rgba(255, 255, 255, 1);
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
   max-width: 198px;
   width: 100%;
   height: 52px;
@@ -441,8 +395,7 @@ a:hover {
   margin-top: 25%;
   margin-left: 90%;
 }
-
-a {
+.a {
   text-decoration: none;
   display: inline-block;
   padding: 0 30px;
@@ -456,7 +409,6 @@ a {
   height: 900px;
   background-color: rgba(243, 243, 243, 1);
   margin: 0 auto;
-
   position: relative;
 }
 .top-hotels-restourants:hover {
@@ -465,7 +417,6 @@ a {
 .top-title {
   max-width: 1312px;
   width: 100%;
-  height: 710px;
   margin-top: 124px;
   position: absolute;
   margin-left: 7%;
@@ -473,15 +424,10 @@ a {
 .top {
   font-size: 36px;
   color: rgba(4, 21, 98, 1);
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
   margin-left: 35%;
   max-width: 436px;
   width: 100%;
 }
-
 .best {
   font-size: 18px;
   color: rgba(98, 98, 98, 1);
@@ -493,13 +439,13 @@ a {
 .images-div2 {
   max-width: 1312px;
   width: 100%;
-  height: 549px;
   position: absolute;
   margin-left: 0%;
   margin-top: 6.7%;
   display: flex;
   justify-content: space-between;
 }
+
 .stars-dv2 {
   display: flex;
   max-width: 145px;
@@ -513,20 +459,18 @@ a {
 }
 .review {
   display: flex;
-  width: 265px;
+  max-width: 265px;
+  width: 100%;
   height: 35px;
   justify-content: space-between;
 }
 .review-2 {
   vertical-align: middle;
-  width: 115px;
+  max-width: 115px;
+  width: 100%;
   height: 31px;
   color: rgba(98, 98, 98, 1);
   font-size: 18px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
   letter-spacing: 2%;
   line-height: 170%;
   margin-top: 3.5px;
@@ -536,10 +480,6 @@ a {
   color: rgba(0, 0, 0, 1);
   letter-spacing: 5%;
   line-height: 100%;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
   margin-top: 40px;
   margin-bottom: 25px;
 }
@@ -551,11 +491,8 @@ a {
 .jakarta {
   font-size: 18px;
   color: rgba(98, 98, 98, 1);
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  width: 160px;
+  max-width: 160px;
+  height: 100%;
   height: 31px;
   position: absolute;
   margin-top: 3%;
@@ -577,13 +514,12 @@ a {
 .coments-dv {
   max-width: 1312px;
   width: 100px;
-  height: 479px;
 }
-
 .previous-2 {
   background-color: rgba(45, 147, 234, 1);
   color: rgba(255, 255, 255, 1);
-  width: 35px;
+  max-width: 35px;
+  width: 100%;
   height: 59px;
   font-size: 50px;
   padding: 0 30px;
@@ -595,7 +531,8 @@ a {
 .next-2 {
   background-color: rgba(45, 147, 234, 1);
   color: rgba(255, 255, 255, 1);
-  width: 35px;
+  max-width: 35px;
+  width: 100%;
   height: 59px;
   font-size: 50px;
   padding: 0 30px;
@@ -613,7 +550,6 @@ a {
 .comments-dv {
   max-width: 1312px;
   width: 100%;
-  height: 479px;
   margin-left: 4%;
   margin-top: 4%;
   position: absolute;
@@ -624,10 +560,6 @@ a {
   height: 44px;
   font-size: 36px;
   color: rgba(255, 255, 255, 1);
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
   margin-left: 2%;
 }
 
@@ -638,7 +570,6 @@ a {
 .three-boxes {
   max-width: 1312px;
   width: 100%;
-  height: 339px;
   background-color: rgba(48, 69, 165, 0.6);
   margin-top: 6%;
   margin-left: 3.5%;
@@ -659,14 +590,9 @@ a {
   font-size: 18px;
   color: rgba(255, 255, 255, 1);
   letter-spacing: 2%;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
   line-height: 170%;
   max-width: 345px;
   width: 100%;
-  height: 155px;
   margin-top: 3%;
 }
 .names {
@@ -679,12 +605,10 @@ a {
 .comment-box {
   max-width: 404px;
   width: 100%;
-  height: 339px;
 }
 .section6 {
   max-width: 1512px;
   width: 100%;
-  height: 700px;
   background-color: rgba(243, 243, 243, 1);
   margin: 0 auto;
 }
@@ -694,7 +618,6 @@ a {
 .offer-div {
   max-width: 477px;
   width: 100%;
-  height: 86px;
   flex-direction: column;
   margin: 0 auto;
 }
@@ -703,25 +626,17 @@ a {
   font-size: 36px;
   letter-spacing: 5%;
   line-height: 100%;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
   margin-bottom: 20px;
-  margin-top: 160px;
+  margin-top: 10%;
 }
 .best-service {
   color: rgba(98, 98, 98, 1);
   font-size: 18px;
   letter-spacing: 5%;
   line-height: 100%;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
 }
 .services {
   max-width: 1312px;
-  height: 448px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -731,10 +646,6 @@ a {
   color: rgba(0, 0, 0, 1);
   font-size: 24px;
   letter-spacing: 5%;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
   line-height: 100%;
   margin-top: 40px;
 }
@@ -762,10 +673,6 @@ a {
   color: rgba(255, 255, 255, 1);
   font-size: 24px;
   letter-spacing: 5%;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
   margin-bottom: 30px;
 }
 .listing {
@@ -773,10 +680,6 @@ a {
   font-size: 18px;
   letter-spacing: 5%;
   line-height: 100%;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
 }
 .listing-dv {
   display: flex;
@@ -788,10 +691,6 @@ a {
   letter-spacing: 5%;
   line-height: 100%;
   font-size: 24px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
   margin-bottom: 20px;
   margin-left: 28px;
 }
@@ -803,10 +702,6 @@ a {
   font-size: 18px;
   letter-spacing: 2%;
   line-height: 100%;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
   margin-top: 18px;
 }
 .tel {
@@ -816,7 +711,6 @@ a {
 .footer-logo {
   max-width: 262px;
   width: 100%;
-  height: 225px;
 }
 .social-media {
   color: rgba(255, 84, 3, 1);
@@ -841,7 +735,6 @@ a {
   background-color: rgba(0, 11, 62, 1);
   max-width: 1512px;
   width: 100%;
-  height: 65px;
   position: absolute;
   margin-top: 500px;
 }
@@ -853,18 +746,262 @@ a {
   line-height: 100%;
   padding: 23px 0;
 }
-@media (max-width: 320px) {
-  .burger-bar {
-    display: block;
-    margin-right: 200px;
+
+@media (max-width: 1441px) {
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
+  .book-now {
+    row-gap: 2%;
+  }
+}
+@media (max-width: 1440px) {
+  .header-conatiner {
+    column-gap: 100px;
+  }
+  .images-dv {
+    margin-left: 5%;
+  }
+  .images-div-2 {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .section-1 {
+    background-position: center;
+  }
+  .top-title {
+    margin-left: 5%;
+  }
+  .search-dv {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 1024px) {
   .header-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo1 {
+    margin-left: 2px;
+  }
+  .travel-buddy {
+    max-width: 300px;
+    width: 100%;
+
+    margin-left: 35%;
+    margin-top: 70px;
+
+    font-size: 45px;
+  }
+  .book-now {
+    max-width: 120px;
+  }
+
+  .search-dv {
+    pointer-events: none;
+
+    height: auto;
+    max-width: 985px;
+    width: 100%;
+    margin-left: 0.3%;
+  }
+  .choose-dv {
+    width: 90%;
+    margin-left: 0.1%;
+  }
+
+  .header-navigation {
+    margin-left: 2px;
+
+    max-width: 90px;
+    width: 50%;
+  }
+  .your-journey {
+    width: 100%;
+    font-size: 21px;
+    margin-left: 22%;
+    margin-top: 16%;
+  }
+  .title-dv {
+    margin-left: 1%;
+  }
+  .section3 {
     width: 100%;
   }
+  .top-places-dv {
+    display: flex;
+    flex-direction: column;
+  }
+  .images-dv {
+    margin-left: 100px;
+    align-items: center;
+  }
+  .section3,
+  .top-hotels-restourants,
+  .section4,
+  .section5 {
+    height: auto;
+  }
+
+  .comment-box {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .previous-dv {
+    margin-left: 15px;
+  }
+  .upcoming-event {
+    margin: 160px;
+  }
+  .next-dv {
+    margin-left: 85%;
+  }
+}
+@media (max-width: 769px) {
   .header-navigation {
     display: none;
   }
+  .header-container {
+    display: flex;
+  }
+  .burger-bar {
+    display: block;
+    margin: 0 auto;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+  .search- .button1 {
+    display: none;
+  }
+  .section4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section3 {
+    height: auto;
+  }
+  .imgs {
+    margin-left: 47px;
+  }
+
+  .previous-dv,
+  .next-dv {
+    display: none;
+  }
+  .upcoming-event {
+    margin-left: 6.5%;
+  }
+  .choose-dv {
+    display: flex;
+    flex-direction: column;
+  }
+  .select-element {
+    margin-left: 118%;
+  }
+  .number {
+    margin: 0 auto;
+  }
+  .title-dv {
+    margin-left: 25%;
+  }
+  .search-dv {
+    display: none;
+  }
   .button1 {
+    display: none;
+  }
+
+  .your-journey {
+    margin-left: 13%;
+    margin-top: 20%;
+  }
+  .button2 {
+    margin-top: 50%;
+    position: absolute;
+    margin-left: 50%;
+  }
+  .top-places {
+    margin-top: 30px;
+  }
+
+  .images-div2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .title {
+    margin-right: 35%;
+  }
+
+  .image3 {
+    display: none;
+  }
+  .section5 {
+    display: none;
+  }
+
+  .hotel-img1 {
+    width: 100%;
+  }
+
+  .section-6 {
+    margin-top: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .header-container {
+    padding: 10px;
+    gap: 10px;
+  }
+  .logo1 {
+    margin-left: 1%;
+    width: 130px;
+  }
+  .travel-buddy {
+    width: 150px;
+    font-size: 20px;
+    margin-left: 78px;
+  }
+  .your-journey {
+    font-size: 12px;
+    margin-top: 35%;
+    margin-left: 2px;
+  }
+  .button2 {
+    width: 40px;
+    margin-left: 130px;
+    margin-top: 55%;
+  }
+  .top-places {
+    font-size: 20px;
+  }
+  .imgs {
+    width: 20px;
+  }
+  .upcoming-event {
+    width: 268px;
+    margin-left: 4%;
+  }
+  .plan-details {
+    margin-left: 8%;
+  }
+  .top {
+    font-size: 22px;
+  }
+  .top-title {
+    width: 250px;
+  }
+
+  .imgs {
+    margin-right: 350px;
+  }
+  .images-div {
     display: none;
   }
 }
