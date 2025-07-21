@@ -24,18 +24,40 @@
         <img class="logo1" src="images/Logo.svg" alt="logo" />
       </div>
       <div class="header-navigation flex-box">
-        <ul class="navigation-parent1 flex-box">
-          <li><a class="nav-li font-inter400" href="index.html">Home</a></li>
-          <li><a class="nav-li font-inter400" href="#">About</a></li>
-          <li><a class="nav-li font-inter400" href="#">Packages</a></li>
-          <li><a class="nav-li font-inter400" href="#">Places</a></li>
-          <li><a class="nav-li font-inter400" href="#">Contact</a></li>
-        </ul>
+        <nav class="navigation" id="navElement">
+          <ul class="navigation-parent1 flex-box">
+            <li>
+              <a target="_blank" class="nav-li font-inter400" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a target="_blank" class="nav-li font-inter400" href="#">About</a>
+            </li>
+            <li>
+              <a target="_blank" class="nav-li font-inter400" href="#"
+                >Packages</a
+              >
+            </li>
+            <li>
+              <a target="_blank" class="nav-li font-inter400" href="#"
+                >Places</a
+              >
+            </li>
+            <li>
+              <a target="_blank" class="nav-li font-inter400" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
       </div>
       <div class="button1">
-        <button class="book-now flex-box font-inter600">Book Now</button>
+        <button id="btn-element" class="book-now flex-box font-inter600">
+          Book Now
+        </button>
       </div>
-      <div class="burger-bar">
+      <div class="burger-bar" id="burgerBar">
         <div class="line line1"></div>
         <div class="line line2"></div>
         <div class="line line3"></div>
@@ -135,19 +157,14 @@
           </h4>
         </div>
         <div class="images-div">
-          <div class="imgs">
-            <img class="img1" src="images/image-1.png" alt="" />
-
-            <img class="img2" src="images/image-2.png" alt="" />
-          </div>
-          <div class="imgs">
-            <img src="images/image-3.png" alt="" />
-
-            <img src="images/image-4.png" alt="" />
-          </div>
+          <div><img class="img" src="images/image-1.png" alt="" /></div>
+          <div><img class="img" src="images/image-2.png" alt="" /></div>
+          <div><img class="img" src="images/image-3.png" alt="" /></div>
+          <div><img class="img" src="images/image-4.png" alt="" /></div>
         </div>
+
         <div class="button4">
-          <button class="discover-more flex-box font-inter600">
+          <button id="btn-element" class="discover-more flex-box font-inter600">
             Discover More
           </button>
         </div>
@@ -491,5 +508,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>

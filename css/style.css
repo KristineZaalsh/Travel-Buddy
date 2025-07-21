@@ -33,9 +33,11 @@
   width: 100%;
   margin: 0 auto;
   display: flex;
-  column-gap: 195px;
+
   justify-content: center;
+  justify-content: space-between;
   background-color: rgba(243, 243, 243, 1);
+  position: relative;
 }
 .header-container:hover {
   background-color: lightgray;
@@ -43,8 +45,10 @@
 .burger-bar {
   width: 70px;
   height: 50px;
-  position: relative;
-  margin-top: 35px;
+  position: absolute;
+  top: 35px;
+  right: 2px;
+  font-size: 20px;
   display: none;
 }
 .line {
@@ -68,6 +72,7 @@
 }
 .burger-bar:hover {
   background-color: lightblue;
+  position: absolute;
 }
 .logo1 {
   max-width: 182px;
@@ -212,7 +217,6 @@
 }
 .button3 {
   color: rgba(255, 255, 255, 1);
-
   background-color: rgba(255, 84, 3, 1);
   width: 198px;
   height: 52px;
@@ -223,9 +227,10 @@
 .section3 {
   background-color: rgba(243, 243, 243, 1);
   max-width: 1512px;
-  height: 1500px;
-  margin: 0 auto;
+  height: 1600px;
+  display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 .section3:hover {
   background-color: lightgray;
@@ -257,9 +262,11 @@ a:hover {
   color: rgba(98, 98, 98, 1);
   margin-top: 20px;
 }
-.images-dv {
-  max-width: 1312px;
-  width: 100%;
+.images-div {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 50px;
+  row-gap: 50px;
 }
 .discover-more {
   margin-top: 17%;
@@ -273,6 +280,8 @@ a:hover {
 .button4 {
   max-width: 250px;
   width: 100%;
+  margin: 0 auto;
+  margin-top: 75px;
 }
 .section4 {
   background-image: url(../images/background-image2.png);
@@ -863,17 +872,24 @@ a {
   }
 }
 @media (max-width: 769px) {
-  .header-navigation {
+  .navigation-parent1 {
+    flex-direction: column;
+    row-gap: 25px;
+    width: 100%;
+  }
+  .navigation.newNavigation {
+    display: block;
+    width: 100%;
+  }
+  .navigation {
     display: none;
   }
   .header-container {
-    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .burger-bar {
     display: block;
-    margin: 0 auto;
-    margin-right: 20px;
-    margin-top: 30px;
   }
   .search- .button1 {
     display: none;
@@ -883,23 +899,16 @@ a {
     flex-direction: column;
   }
   .section3 {
-    height: auto;
+    width: 730px;
   }
-  .imgs {
-    margin-left: 47px;
+  .img {
+    width: 300px;
   }
-
   .previous-dv,
   .next-dv {
     display: none;
   }
-  .upcoming-event {
-    margin-left: 6.5%;
-  }
-  .choose-dv {
-    display: flex;
-    flex-direction: column;
-  }
+
   .select-element {
     margin-left: 118%;
   }
@@ -910,8 +919,10 @@ a {
     margin-left: 25%;
   }
   .search-dv {
-    display: none;
+    max-width: 706px;
+    width: 100%;
   }
+
   .button1 {
     display: none;
   }
