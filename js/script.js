@@ -1,7 +1,7 @@
 let btnelement = document.getElementById('btn-element');
 
 btnelement.addEventListener('click',function() {
-    alert('please wait')
+    alert('"Book Now" functionality is not available right now')
 });
 
 let navigationElement = document.getElementById('navElement');
@@ -12,4 +12,3 @@ burgerBar.addEventListener('click',function () {
 });
 
 
-console.log(typeof age);
