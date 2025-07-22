@@ -532,9 +532,7 @@ a:hover {
   font-size: 50px;
 }
 .previous-dv-2 {
-  margin-left: 380%;
-  margin-right: 6%;
-  margin-top: 40px;
+  margin-left: 360%;
 }
 
 .next-2 {
@@ -544,7 +542,7 @@ a:hover {
   width: 100%;
   height: 59px;
   font-size: 50px;
-  margin-left: 436%;
+  margin-left: 397%;
 }
 
 a {
@@ -553,7 +551,7 @@ a {
   padding: 0 30px;
 }
 .comments-dv {
-  max-width: 1312px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
@@ -750,7 +748,6 @@ a {
   padding: 23px 0;
 }
 
-
 @media (max-width: 1400px) {
   .select-element,
   .date-min,
@@ -792,17 +789,17 @@ a {
     padding: 40px 60px;
   }
 }
-@media(max-width:1200px) {
-  .travel-buddy{
+@media (max-width: 1200px) {
+  .travel-buddy {
     font-size: 52px;
     margin-top: 5%;
   }
-  .your-journey{
+  .your-journey {
     font-size: 20px;
     margin-top: 12%;
     margin-left: 25%;
   }
-  .search-dv{
+  .search-dv {
     flex-wrap: wrap;
     padding: 20px;
     gap: 20px;
@@ -823,10 +820,9 @@ a {
     justify-content: center;
   }
   .images-div {
-    padding:0  30px;
+    padding: 0 30px;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    
   }
   .images-div2 {
     flex-wrap: wrap;
@@ -836,7 +832,6 @@ a {
   .top-places {
     font-size: 26px;
     margin: 50px 0;
-
   }
   .section-4 {
     flex-direction: column;
@@ -847,22 +842,20 @@ a {
     max-width: 85%;
     padding: 30px;
   }
-  .three-boxes{
+  .three-boxes {
     flex-direction: column;
     gap: 20px;
-   
   }
- 
-  .footer-inside{
+
+  .footer-inside {
     flex-wrap: wrap;
     justify-content: center;
     padding: 30px;
     gap: 55px;
   }
-  .top-hotels-restourants{
+  .top-hotels-restourants {
     height: 1200px;
   }
-  
 }
 @media (max-width: 1024px) {
   .header-container {
@@ -873,19 +866,18 @@ a {
   .logo1 {
     margin-left: 2px;
   }
- 
+
   .your-journey {
-  flex-wrap: wrap;
- justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .search-dv {
     pointer-events: none;
     flex-direction: column;
     height: auto;
-   width: 631px;
-  margin-left: 18%;
-    
+    width: 631px;
+    margin-left: 18%;
   }
   .choose-dv {
     flex-wrap: wrap;
@@ -917,30 +909,35 @@ a {
   .upcoming-event {
     max-width: 100%;
     flex-direction: column;
-  
   }
   .next-dv-2,
   .previous-2 {
     display: none;
   }
   .section6 {
-  display: flex;
+    display: flex;
     flex-direction: column;
     height: auto;
-   
-
-  
   }
-    .services-box-3 {
-      display: none;
-
-    }
-   
-  .footer-logo{
-    width: 100px;}
-
-  
-
+  .services-box-3 {
+    display: none;
+  }
+  .footer-inside {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-contact {
+    width: 300px;
+  }
+  .footer-img {
+    max-width: 200px;
+    width: 100%;
+  }
+  .footer-logo {
+    max-width: 150px;
+    width: 100%;
+  }
 }
 @media (max-width: 769px) {
   .navigation-parent1 {
@@ -1049,12 +1046,9 @@ a {
     height: 35px;
   }
   .search-dv {
-   
     width: 100%;
-   padding: 10px;
+    padding: 10px;
     gap: 10px;
-   
-    
   }
   .choose-dv {
     flex-direction: column;
@@ -1081,16 +1075,16 @@ a {
   .images-div-2 {
     display: none;
   }
-  .section-{
+  .section- {
     width: 200px;
   }
   .upcoming-event {
     width: 100%;
-   
+
     font-size: 14px;
     padding: 10px;
   }
- 
+
   .footer-inside {
     flex-direction: column;
     gap: 20px;
