@@ -923,11 +923,15 @@ a {
     display: none;
   }
   .footer-inside {
-    height: 350px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
   }
-  .footer-contact {
+  .footer-contact{
+   
     width: 300px;
   }
   .footer-img {
